@@ -2,7 +2,7 @@ let modInfo = {
 	name: "Incremental Cioni",
 	id: "incrementalcioni",
 	author: "TrfAle",
-	pointsName: "cionis",
+	pointsName: "essence",
 	modFiles: ["layers.js", "tree.js"],
 
 	discordName: "not yet lol",
@@ -56,7 +56,7 @@ var displayThings = [
 
 // Determines when the game "ends"
 function isEndgame() {
-	return player.points.gte(new Decimal("e280000000"))
+	return player.points.gte(new Decimal("e9999999999999999999999999999999999"))
 }
 
 
